@@ -1,0 +1,49 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    position:fixed;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    align-items: center;
+}
+.heading h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: white;
+    margin-left: 10px;
+}
+.heading img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.Nav ul{
+    display: flex;
+    gap:100px;
+    list-style: none;
+    font-family: "Tektur", sans-serif;
+    color: white;
+}
+.hire button{
+    padding: 25px;
+    border-radius: 20px;
+    background-color: transparent;
+    border:1px solid rgb(168, 162, 162);
+    font-family: "Tektur", sans-serif;
+    color: white;
+}
+.head{
+    background-image: url("./assets/background.jpg");
+}
+.Nav a{
+    color: white;
+    text-decoration: none;
+}
+.Nav a:hover{
+    color: blue;
+    transition: ease-in 0.1s;
+}
