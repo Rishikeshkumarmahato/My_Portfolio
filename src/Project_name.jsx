@@ -19,7 +19,8 @@ export let Project_name=[
     {
         name:"My Portfolio",
         image:portfolio,
-        link:""
+        link:"https://my-portfolio-ashen-zeta-67.vercel.app/
+            "
     },
     {
         name:"Resturant Webpage",
